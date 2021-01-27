@@ -21,7 +21,7 @@ class Square extends React.Component {
         ) : this.state.colorNumber < 0.4 ? (
           <div className="squares blue"></div>
         ) : this.state.colorNumber < 0.6 ? (
-          <div className="squares red"></div>
+          <div  className="squares red"></div>
         ) : this.state.colorNumber < 0.8 ? (
           <div className="squares yellow"></div>
         ) : (
